@@ -1,3 +1,16 @@
+/* Program to print the following pattern 
+	 				    *
+					   * *
+					  *   *
+					 *     *
+					*       *
+					*       *
+					 *     *
+					  *   *
+					   * *
+					    *
+ */
+
 import java.util.Scanner;  
 public class Diamond_Star_Pattern 
 {  
@@ -46,3 +59,5 @@ public class Diamond_Star_Pattern
 				}  
 		}  
 }
+
+// Time complexity - O(n ^ 2)

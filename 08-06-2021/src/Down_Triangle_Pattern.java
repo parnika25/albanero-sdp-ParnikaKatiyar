@@ -1,3 +1,12 @@
+/* Program to print the following pattern 
+
+				*********
+				 *     *
+				  *   *
+				   * *
+				    *
+*/
+
 import java.util.Scanner;  
 public class Down_Triangle_Pattern  
 {  
@@ -27,3 +36,5 @@ public class Down_Triangle_Pattern
 				}  
 		}  
 }
+
+// Time complexity - O(n ^ 2)

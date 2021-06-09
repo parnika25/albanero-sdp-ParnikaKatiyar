@@ -1,3 +1,11 @@
+/* Program to print the following pattern 
+ 					    * * * * * 
+						 * * * * 
+						  * * * 
+						   * * 
+						    *   
+*/
+
 import java.util.Scanner;
 public class Reverse_Pyramid_Star_Pattern   
 {  
@@ -20,3 +28,5 @@ public class Reverse_Pyramid_Star_Pattern
 		}   
 	}
 }   
+
+//Time complexity - O(n ^ 2)

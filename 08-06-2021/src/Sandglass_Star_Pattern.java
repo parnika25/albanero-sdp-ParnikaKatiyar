@@ -1,3 +1,15 @@
+/* Program to print the following pattern 
+ 					     * * * * * 
+						  * * * * 
+						   * * * 
+						    * * 
+						     * 
+						    * * 
+						   * * * 
+						  * * * * 
+						 * * * * *  
+*/
+
 import java.util.Scanner;
 public class Sandglass_Star_Pattern 
 {   
@@ -33,3 +45,5 @@ public class Sandglass_Star_Pattern
 		} 
 	}
 }   
+
+//Time complexity - O(n ^ 2)

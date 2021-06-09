@@ -1,5 +1,12 @@
-import java.util.Scanner;
+/* Program to print the following pattern 
+ 					           1
+						      1 1
+						     1 2 1
+						    1 3 3 1
+						   1 4 6 4 1 
+*/
 
+import java.util.Scanner;
 public class Pascal
 {
    static int factorial(int n) 
@@ -18,7 +25,7 @@ public class Pascal
 	   	Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the number of rows :");
 		int r=sc.nextInt();
-		for(int i = 0; i <= r; i++) 
+		for(int i = 0; i < r; i++) 
 		{
 	         for(int k = 0; k <= r-i; k++)
 	         {
@@ -32,3 +39,5 @@ public class Pascal
 		}
    }
 }
+
+//Time complexity - O(n ^ 2)

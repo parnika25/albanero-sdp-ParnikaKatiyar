@@ -25,3 +25,5 @@ public class Armstrong
 	}
 
 }
+
+// Time complexity - No of digits in a number

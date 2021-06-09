@@ -1,3 +1,15 @@
+/* Program to print the following pattern 
+ 					    * 
+						* * 
+						* * * 
+						* * * * 
+						* * * * * 
+						* * * * 
+						* * * 
+						* * 
+						*  
+*/
+
 import java.util.Scanner;
 public class Right_Pascal_Triangle   
 {   
@@ -24,3 +36,5 @@ public class Right_Pascal_Triangle
 		}   
 	}
 }   
+
+//Time complexity - O(n ^ 2)

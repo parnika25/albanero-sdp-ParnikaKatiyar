@@ -1,3 +1,11 @@
+/* Program to print the following pattern 
+ 					        * 
+							* * 
+							* * * 
+							* * * * 
+							* * * * * 
+*/
+
 import java.util.*;
 public class Pattern   
 {   
@@ -16,3 +24,5 @@ public class Pattern
 		}   
 	}
 }   
+
+//Time complexity - O(n ^ 2)

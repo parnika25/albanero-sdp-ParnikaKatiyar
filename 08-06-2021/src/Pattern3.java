@@ -1,3 +1,11 @@
+/* Program to print the following pattern 
+ 					    1 
+						2 3 
+						4 5 6 
+						7 8 9 10 
+						11 12 13 14 15 
+*/
+
 import java.util.Scanner;
 public class Pattern3
 {   
@@ -17,3 +25,5 @@ public class Pattern3
 		}   
 	}
 }   
+
+//Time complexity - O(n ^ 2)

@@ -31,3 +31,5 @@ public class prime
 	}
 
 }
+
+// O(sqrt(n))

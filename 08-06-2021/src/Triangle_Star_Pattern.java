@@ -1,3 +1,11 @@
+/* Program to print the following pattern 
+ 					        *
+						   * *
+						  *   *
+						 *     *
+						*********  
+*/
+
 import java.util.Scanner;  
 public class Triangle_Star_Pattern  
 {  
@@ -27,3 +35,5 @@ public class Triangle_Star_Pattern
 				}  
 		}  
 }
+
+//Time complexity - O(n ^ 2)
