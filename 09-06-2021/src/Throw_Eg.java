@@ -3,7 +3,7 @@ public class Throw_Eg
    static void validate(int age)
    {  
      if(age<18)  
-      throw new ArithmeticException("Not valid");  
+      throw new ArithmeticException("Not the valid age to vote");  
      else  
       System.out.println("welcome to vote");  
    }  
