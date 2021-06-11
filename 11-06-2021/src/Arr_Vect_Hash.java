@@ -6,7 +6,7 @@ class Arr_Vect_Hash
 	public static void main(String[] args)
 	{
 		int arr[] = new int[] { 1, 2, 3, 4 };
-		Vector<Integer> v = new Vector();
+		Vector<Integer> v = new Vector<Integer>();
 		Hashtable<Integer, String> h = new Hashtable();
 		v.addElement(1);								//Adding elements into the vector
 		v.addElement(2);
