@@ -1,4 +1,5 @@
-//If the superclass method does not declare an exception, subclass overridden method cannot declare the checked exception but can declare unchecked exception.import java.io.*;  
+//If the superclass method does not declare an exception, subclass overridden method cannot declare the checked exception but can declare unchecked exception.
+import java.io.*;  
 class Parent2
 {  
   void msg(){System.out.println("parent");}  
