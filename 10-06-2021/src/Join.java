@@ -23,7 +23,7 @@ public static void main(String args[])
 	t1.start();  
 	try
 	{  
-		t1.join();  
+		t1.join(1500);  
 	}
 	catch(Exception e)	
 	{
