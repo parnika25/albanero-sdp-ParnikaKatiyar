@@ -9,7 +9,7 @@ public class Dequeue_Eg
 		dq.add(30);
 		dq.add(40);
 		dq.add(50);
-		System.out.println(dq);
+		System.out.println("Oiginal Queue "+dq);
 		dq.clear();
 
 		dq.addFirst(100);
@@ -20,6 +20,8 @@ public class Dequeue_Eg
 		dq.addLast(20);
 		dq.addLast(50);	
 
-		System.out.println(dq);
+		System.out.println("Dequeue implementation : "+dq);
+		dq.removeLast();
+		System.out.println("After removing last element : "+dq);
 	}
 }
