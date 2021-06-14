@@ -1,10 +1,8 @@
 import java.io.*;
-
 class Emp implements Serializable 
 {
-private static final long serialVersionUID = 1234L;
 	transient int a;
-	static int b;
+	static transient int b;
 	String name;
 	int age;
 public Emp(String name, int age, int a, int b)
@@ -64,7 +62,6 @@ public static void main(String[] args)
 			System.out.println("Object has been deserialized\nData after Deserialization.");
 			printdata(object);
 
-			// System.out.println("z = " + object1.z);
 		}
 
 		catch (IOException ex) 
