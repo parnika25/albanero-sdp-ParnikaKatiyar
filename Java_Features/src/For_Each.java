@@ -11,7 +11,7 @@ public class For_Each
         System.out.println("Iterating by passing lambda expression");  
         li.forEach(fruits -> System.out.println(fruits));  
         System.out.println("Iterating by passing method reference");  
-        li.stream().forEachOrdered(System.out::println); 
+        li.forEach(System.out::println); 
           
     }
 }
