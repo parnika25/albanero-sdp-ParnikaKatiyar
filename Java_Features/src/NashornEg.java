@@ -1,0 +1,10 @@
+import javax.script.*;  
+import java.io.*;  
+public class NashornEg 
+{  
+    public static void main(String[] args) throws Exception 
+    { 
+    	ScriptEngine ee = new ScriptEngineManager().getEngineByName("Nashorn");   
+        ee.eval(new FileReader("C:/Users/KIIT/git/repository/myrepo/Java_Features/src/hello.js"));  
+    }  
+}  
