@@ -11,11 +11,6 @@ public class My_Service
 	@Autowired
 	private user_Repository repository;
 	
-	public user1 getByusername (String username)
-	{
-		return repository.findByusername(username);
-	}
-	
 	public user1 update(String username) 
 	{
 		user1 u= repository.findByusername(username);
@@ -31,10 +26,6 @@ public class My_Service
 		repository.delete(u);
 	}
 	
-	public void deleteuser(user1 user1)
-	{
-		repository.delete(user1);
-	}
 	
 }
 
