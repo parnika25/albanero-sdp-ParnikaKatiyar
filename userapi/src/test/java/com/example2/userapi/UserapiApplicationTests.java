@@ -13,13 +13,12 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 import java.util.ArrayList;
 import java.util.List;
-
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
+
 
 @RunWith(SpringRunner.class)
 @AutoConfigureMockMvc
@@ -49,7 +48,7 @@ class UserapiApplicationTests
     
     
     @Test
-    public void getuser() throws Exception 
+    public void get_user() throws Exception 
     {
     	   String uri = "/all";
     	   List<user1> userlist = create_list();
@@ -59,7 +58,7 @@ class UserapiApplicationTests
     	   
     }
     
-    private user1 user1 = new user1 ("parnika","Parnika Katiyar","pk@gmail.com","qwer",123456789,"jkl");
+    private user1 user1 = new user1 ("katiyar","Parnika Katiyar","pk@gmail.com","qwer",123456789,"jkl");
     
     @Test
 	public void add_user_test()
@@ -70,7 +69,7 @@ class UserapiApplicationTests
 	}
 	
     @Test
-	public void updateTest()
+	public void update_Test()
 	{
     	user1.setUsername("katiyar");
 		when(repository.save(user1)).thenReturn(user1);
@@ -78,7 +77,7 @@ class UserapiApplicationTests
 	}
     
     @Test
-	public void delete_userTest()
+	public void delete_user_Test()
 	{
 		service.delete_user(user1);
 		verify(repository,times(1)).delete(user1);
