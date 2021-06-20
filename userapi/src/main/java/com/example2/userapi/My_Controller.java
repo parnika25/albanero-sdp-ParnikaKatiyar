@@ -25,7 +25,8 @@ public class My_Controller
 	private My_Service service;
 	
 	@PostMapping(path="/add") 
-	public user1 adduser(@RequestBody user1 user) {
+	public user1 adduser(@RequestBody user1 user) 
+	{
 		repository.save(user);
 		return user;
 	}
