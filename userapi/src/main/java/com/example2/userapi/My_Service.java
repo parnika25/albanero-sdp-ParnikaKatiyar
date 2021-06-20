@@ -26,10 +26,13 @@ public class My_Service
 		repository.delete(u);
 	}
 	
+
 	public void delete_user(user1 u)
 	{
 		repository.delete(u);
 	}
+=======
+
 	
 }
 

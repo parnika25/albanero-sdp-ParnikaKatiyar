@@ -1,5 +1,5 @@
 /* Program to print the following pattern 
- 					           1
+ 					               1
 						      1 1
 						     1 2 1
 						    1 3 3 1
