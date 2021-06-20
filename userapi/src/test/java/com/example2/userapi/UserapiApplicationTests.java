@@ -48,15 +48,10 @@ class UserapiApplicationTests
     
     
     @Test
-    public void get_user() throws Exception 
+    public void get_user()  
     {
-    	   String uri = "/all";
     	   List<user1> userlist = create_list();
-    	   MvcResult Result = mockmvc.perform(MockMvcRequestBuilders.get(uri)).andReturn();
-    	   ObjectMapper mapper = new ObjectMapper(); //provides functionality for reading and writing JSON
-    	   String st1=mapper.writeValueAsString(userlist);
-    	   String st2= Result.getResponse().getContentAsString();
-    	   st1.equals(st2);
+    	   assertEquals(userlist,repository.findAll());    	 
     }
     
     private user1 user1 = new user1 ("katiyar","Parnika Katiyar","pk@gmail.com","qwer",123456789,"jkl");
