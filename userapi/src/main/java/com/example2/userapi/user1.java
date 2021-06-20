@@ -1,6 +1,7 @@
 package com.example2.userapi;
 
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -10,13 +11,19 @@ import javax.persistence.Id;
 public class user1 
 {
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)	
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	public Integer id;
+	@Column(nullable = false)
 	public String username;
+	@Column(nullable = false)
 	public String full_name;
+	@Column(nullable = false)
 	public String email_id;
+	@Column(nullable = false)
 	public String address;
+	@Column(nullable = false)
 	public long mobile_no;
+	@Column(nullable = false)
 	public String currentOrganization;
 	
 	public user1(String username, String full_name, String email_id, String address, long mobile_no, String currentOrganization) 
